@@ -1,0 +1,99 @@
+@media (max-width: 768px){
+   
+    body{
+        height: 2400px;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .icon-card{
+    position: relative;
+    width: 100vw;
+    margin-top: 60px;
+    transform: translateX(-40%);
+    
+    
+    display: block;
+    text-align: center;
+    }
+ .card{
+    
+    display: grid;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    margin-top: 20px;
+    padding: 10px;
+ }
+
+ .card i{
+    
+    margin-top: 14px;
+    font-size: 40px;
+    margin-left: 0px;
+    color: var(--colBlue);
+}
+
+.topbar {
+    width: 60%;
+    margin-left: -250px;
+}
+.search input {
+    width: 10px;
+ 
+    color: var(--blue);
+    transition: 0.6s;
+}
+
+.search input:focus{
+    width: 200px;
+}
+.topbar img{
+    right: 20px;
+    top: 20px;
+}
+
+/* Orders */
+.orders{position: absolute;
+    right: 10px;
+    width: 360px;
+    height: 800px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.orders h1{
+    font-size: 18px;
+}
+
+.orders button{
+    position: absolute;
+    right: -20px;
+    top: -5px;
+}
+.td-header{
+    font-size: 18px;
+}
+.details{
+    font-size: 16px;
+}
+.status-sky{
+    font-size: 11px;
+}
+
+
+
+/*  */
+
+/* recent-custmers */
+.recent-custmers{
+    margin-top: 1400px;
+    width: 300px;
+    transform: translateX(20%);
+ 
+}
+
+
+}
